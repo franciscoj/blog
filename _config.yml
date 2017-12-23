@@ -18,18 +18,20 @@ email: nflamel@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   This is just me coding
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "http://dev.otrobloggek.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://dev.otrobloggeek.com" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: /:year/:month/:day/:title.html
 timezone: Europe/Madrid
+
+# Accounts
 twitter_username: nflamel
 github_username:  franciscoj
+disqus:
+  shortname: franciscoj
+google_analytics: UA-18388725-1
 
 # Build settings
 markdown: kramdown
 theme: minima
-disqus:
-  shortname: franciscoj
-google_analytics: UA-18388725-1
 
 plugins:
   - jekyll-feed
