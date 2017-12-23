@@ -1,6 +1,8 @@
 ---
 title: Move files with netrw
 date: 2016-12-23 20:25
+categories:
+  - vim
 ---
 
 After some time with emacs I'm back to Vim. This time I'm using
